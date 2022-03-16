@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "GET",
         headers: {
           "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-          "x-rapidapi-key": "<YOUR_KEY_GOES_HERE>",
+          "x-rapidapi-key": "8bd6a0bfb6msh73f4a0567633bbep106526jsn209b4f95687b",
         },
       }
     )
