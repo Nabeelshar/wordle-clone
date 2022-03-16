@@ -75,17 +75,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const currentWord = currentWordArr.join("");
 
-    fetch(`https://wordsapiv1.p.rapidapi.com/words/${currentWord}`, {
-      method: "GET",
-      headers: {
-        "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-        "x-rapidapi-key": "61c5e3986dmsh20c1bee95c2230dp18d1efjsn4668bbcfc1b3",
-      },
-    })
-      .then((res) => {
-        if (!res.ok) {
-          throw Error();
-        }
+    // fetch(`https://wordsapiv1.p.rapidapi.com/words/${currentWord}`, {
+    //   method: "GET",
+    //   headers: {
+    //     "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+    //     "x-rapidapi-key": "61c5e3986dmsh20c1bee95c2230dp18d1efjsn4668bbcfc1b3",
+    //   },
+    // })
+      // .then((res) => {
+      //   if (!res.ok) {
+      //     throw Error();
+      //   }
 
         const firstLetterId = guessedWordCount * 5 + 1;
         const interval = 200;
